@@ -9,7 +9,7 @@ CC = g++
 INCLUDE =
 LIBS = -lm
 
-build:${OBJ}
+build:
    ${CC} ${CFLAGS} ${INCLUDES} -o $@ ${OBJS} ${LIBS}
 
 clean:
