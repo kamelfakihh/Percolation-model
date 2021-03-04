@@ -1,7 +1,3 @@
-
-
-
-
 SRC = ./src
 OBJS =  %(SRC)/main.cpp %(SRC)/Percolation.cpp %(SRC)/PercolationStats.cpp
 CFLAG = -Wall -g
